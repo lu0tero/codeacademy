@@ -1,0 +1,25 @@
+.search-results {
+    width: 50%;
+    height: 950px;
+    overflow-y: scroll;
+    padding: .88rem;
+    background-color: rgba(0, 0, 0, 0.37);
+}
+
+.search-results h2 {
+    color: white;
+    font-weight: 300;
+    font-size: 24p;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+@media only screen and (max-width: 1020px) {
+    .search-results {
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+}

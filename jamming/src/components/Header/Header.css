@@ -1,0 +1,11 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blackSpotify);
+    color: white;
+}
+
+.highlight {
+    color: var(--greenSpotify);
+}

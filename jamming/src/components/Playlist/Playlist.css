@@ -1,0 +1,50 @@
+.playlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    width: 40%;
+    max-height: 950px;
+    padding: 2.27rem 1.16rem;
+    background-color: rgba(0, 0, 0, 0.37);
+}
+
+.playlist input {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    border-bottom: 1px solid #6f6f6f;
+    font-size: 1.55rem;
+    color: #fff;
+}
+
+.playlist-save {
+    cursor: pointer;
+    width: 10rem;
+    padding: .77rem 0;
+    border-radius: 54px;
+    border-width: 0px;
+    margin-top: 1.27rem;
+    background-color: var(--greenSpotify);
+    text-align: center;
+    font-size: .83rem;
+    transition: background-color .25s;
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  .playlist-save:hover {
+    background-color: #116b30;
+  }
+  
+  ::-webkit-scrollbar {
+      width: 0px;
+      background: transparent;
+  }
+  
+  @media only screen and (max-width: 1020px) {
+    .playlist {
+      width: 90%;
+    }
+  }
